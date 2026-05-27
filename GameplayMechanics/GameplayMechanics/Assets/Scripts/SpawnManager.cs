@@ -6,7 +6,7 @@ public class SpawnManager : MonoBehaviour
     private float spawnRange = 9.0f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
-    {
+    {   
         Instantiate(enemyPrefab, GenerateSpawnPosition(), enemyPrefab.transform.rotation);
     }
 
